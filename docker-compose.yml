@@ -4,8 +4,6 @@ services:
         container_name: resume
         image: afuning/basic:latest
         privileged: true
-        volumes: 
-            - /usr/share/fonts:/usr/share/fonts
         ports:
             - "8080:80"
         restart: on-failure
