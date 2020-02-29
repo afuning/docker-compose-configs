@@ -7,7 +7,7 @@ services:
         ports:
             - "8080:80"
         restart: on-failure
-    next_web:
+    next-web:
         container_name: next-web
         image: afuning/next-web:latest
         privileged: true
